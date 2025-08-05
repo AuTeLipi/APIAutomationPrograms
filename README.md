@@ -1,61 +1,93 @@
-APIAutomationPrograms 🚀
-Author: AuTeLipi
+# 🚀 API Automation Programs
 
-Welcome to the APIAutomationPrograms repository! This project serves as your comprehensive guide and codebase for mastering REST API automation using Java, with hands-on examples leveraging Rest Assured, TestNG, Allure Reports, and Apache POI for real-world data-driven testing.
+### Author: AuTelipi
 
-📚 What You Will Learn
-Rest Assured fundamentals for robust API testing
+Welcome to the **API Automation Programs** repository!  
+This project is your complete guide and hands-on workspace for mastering **REST API test automation using Java**. It leverages tools like **Rest Assured**, **TestNG**, **Allure**, and **Apache POI** for real-world, data-driven testing.
 
-CRUD operations:
-GET | POST | PUT | PATCH | DELETE
+---
 
-Integrating and organizing tests with TestNG
+## 📘 What You'll Learn
 
-Generating beautiful reports using Allure
+- ✅ Fundamentals of REST API testing
+- 🔄 CRUD operations: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`
+- 🧪 Writing and organizing test cases using **TestNG**
+- 📊 Generating elegant and insightful reports with **Allure**
+- 📈 Performing data-driven testing using **Apache POI (Excel)**
 
-Data-driven automation with Apache POI and Excel
+---
 
-🛠️ Technologies Used
-Technology	Purpose
-Java	Programming Language
-Rest Assured	API Testing Framework
-TestNG	Test Orchestration & Assertions
-Allure	Reporting
-Apache POI	Excel-based Data Manipulation
-Maven	Build & Dependency Management
-IntelliJ IDEA	Integrated Development Environment
-📂 Project Structure
-text
+## ⚙️ Technologies & Tools Used
+
+| Category               | Tools / Frameworks                               |
+|------------------------|--------------------------------------------------|
+| Programming Language   | Java                                             |
+| API Testing            | Rest Assured                                     |
+| Test Framework         | TestNG                                           |
+| Reporting              | Allure                                           |
+| Data Handling          | Apache POI (Excel)                               |
+| Build Tool             | Maven                                            |
+| IDE                    | IntelliJ IDEA                                    |
+| Version Control        | Git                                              |
+
+---
+
+## 📁 Project Structure
+
 APIAutomationPrograms/
-│
 ├── src/
-│   ├── main/java/com/LipiAutomation/
-│   │    └── ...               # Core business logic (if any)
-│   └── test/java/com/LipiAutomation/
-│         ├── Ex_01_RA_Basics        # Basic Rest Assured examples
-│         ├── Ex_02_RA_Concepts      # Advanced Rest Assured concepts
-│         ├── Ex_03_TestNG_AllureReport
-│         └── Homework_5th_Aug       # Assignments & Learning
+│ └── main/java/com/LipiAutomation/ # (If any core logic)
 │
-├── testng_temp.xml                  # TestNG suite file (temp/demo)
-├── pom.xml                          # Maven dependencies
-├── .gitignore                       # Git ignore rules
-└── README.md                        # Project documentation (you’re here!)
-💡 Getting Started
-Clone this repo
-git clone https://github.com/AuTeLipi/APIAutomationPrograms.git
+├── test/java/com/LipiAutomation/
+│ ├── Ex_01_RA_Basics # Basic Rest Assured examples
+│ ├── Ex_02_RA_Concepts # Advanced Rest Assured examples
+│ ├── Ex_03_TestNG_AllureReport # Allure integrated tests
+│ └── Homework_5th_Aug # Assignments / exercises
+│
+├── testng_temp.xml # Temporary TestNG suite
+├── pom.xml # Maven dependencies
+├── .gitignore # Git ignore rules
+└── README.md # You're here!
 
-Install dependencies
+
+---
+
+## 🚀 Getting Started
+
+### 🛠️ Prerequisites
+- JDK 8 or higher
+- Maven
+- IntelliJ IDEA (recommended)
+
+### 🔧 Installation
+
+```bash
+git clone https://github.com/AuTelipi/APIAutomationPrograms.git
+cd APIAutomationPrograms
 mvn clean install
 
-Explore sample test cases
+🧪 Running Tests
+You can run tests in two ways:
 
-Find them under src/test/java/com/LipiAutomation/
+✅ From IntelliJ:
+Open any test file or use testng_temp.xml to run the suite directly.
 
-Run tests via TestNG
+✅ Using Maven:
 
-Use any testng.xml or run directly from IntelliJ
+```bash
+mvn test
 
-Check out Allure reports
+📊 Reporting with Allure
+After test execution, generate and open Allure reports:
 
-After running tests, generate reports using Allure CLI
+```bash
+allure serve
+Make sure Allure CLI is installed and configured in your system.
+
+📎 Additional Notes
+✅ Test cases are organized into folders for progressive learning (basics, advanced, Allure, assignments).
+
+📊 Excel files are used for data-driven automation (check resources folder if added).
+
+📝 Homework and assignment folders are included to reinforce learning.
+
