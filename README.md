@@ -46,8 +46,7 @@ APIAutomationPrograms/
 │
 ├── testng_temp.xml # Temporary TestNG suite
 ├── pom.xml # Maven dependencies
-├── .gitignore # Git ignore rules
-└── README.md # You're here!
+└── .gitignore # Git ignore rules
 ```
 
 ---
