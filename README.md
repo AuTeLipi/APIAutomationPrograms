@@ -1,6 +1,6 @@
 # 🚀 API Automation Programs
 
-### Author: AuTelipi
+### Author: Lipi
 
 Welcome to the **API Automation Programs** repository!  
 This project is your complete guide and hands-on workspace for mastering **REST API test automation using Java**. It leverages tools like **Rest Assured**, **TestNG**, **Allure**, and **Apache POI** for real-world, data-driven testing.
