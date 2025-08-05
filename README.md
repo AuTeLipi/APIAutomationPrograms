@@ -91,7 +91,7 @@ Make sure Allure CLI is installed and configured in your system.
 
 ---
 
-###📎 Additional Notes
+📎 Additional Notes
 - ✅ Test cases are organized into folders for progressive learning (basics, advanced, Allure, assignments).
 - 📊 Excel files are used for data-driven automation (check resources folder if added).
 - 📝 Homework and assignment folders are included to reinforce learning.
