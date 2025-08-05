@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Home/IdeaProjects/APIAutomationPrograms/src/test/java/com/LipiAutomation/Ex_03_TestNG_AllureReport/APITesting_Lab06_TestCase.java">
+        <classes>
+            <class name="com.LipiAutomation.Ex_03_TestNG_AllureReport.APITesting_Lab06_TestCase">
+            </class>
+        </classes>
+    </test>
+</suite>
