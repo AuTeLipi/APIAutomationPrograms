@@ -33,7 +33,7 @@ This project is your complete guide and hands-on workspace for mastering **REST 
 ---
 
 ## 📁 Project Structure
-
+```
 APIAutomationPrograms/
 ├── src/
 │ └── main/java/com/LipiAutomation/ # (If any core logic)
@@ -48,7 +48,7 @@ APIAutomationPrograms/
 ├── pom.xml # Maven dependencies
 ├── .gitignore # Git ignore rules
 └── README.md # You're here!
-
+```
 
 ---
 
@@ -86,14 +86,14 @@ mvn test
 After test execution, generate and open Allure reports:
 ```bash
 allure serve
-Make sure Allure CLI is installed and configured in your system.
 ```
+Make sure Allure CLI is installed and configured in your system.
 
 ---
 
 ###📎 Additional Notes
-✅ Test cases are organized into folders for progressive learning (basics, advanced, Allure, assignments).
-📊 Excel files are used for data-driven automation (check resources folder if added).
-📝 Homework and assignment folders are included to reinforce learning.
+- ✅ Test cases are organized into folders for progressive learning (basics, advanced, Allure, assignments).
+- 📊 Excel files are used for data-driven automation (check resources folder if added).
+- 📝 Homework and assignment folders are included to reinforce learning.
 
 ---
