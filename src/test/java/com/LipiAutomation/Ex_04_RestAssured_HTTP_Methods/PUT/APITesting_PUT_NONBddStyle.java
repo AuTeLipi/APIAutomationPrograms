@@ -1,4 +1,4 @@
-package Ex_04_RestAssured_HTTP_Methods.PATCH;
+package com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.PUT;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -7,8 +7,8 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class APITesting012_PATCH_NONBddStyle {
-    // PATCH
+public class APITesting_PUT_NONBddStyle {
+    // PUT
 
     // token, booking ID - A
     // public void get_token(){ }
@@ -19,26 +19,32 @@ public class APITesting012_PATCH_NONBddStyle {
     ValidatableResponse vr;
 
     @Test
-    public void test_patch_non_bdd() {
+    public void test_put_non_bdd() {
 
         String bookingid = "2232";
         String token = "39a0dd7a6fa3ead";
 
         String payload = "{\n" +
-                "    \"firstname\" : \"Pramod\",\n" +
-                "    \"lastname\" : \"Brown\"\n" +
+                "    \"firstname\" : \"lipi\",\n" +
+                "    \"lastname\" : \"Brown\",\n" +
+                "    \"totalprice\" : 111,\n" +
+                "    \"depositpaid\" : true,\n" +
+                "    \"bookingdates\" : {\n" +
+                "        \"checkin\" : \"2018-01-01\",\n" +
+                "        \"checkout\" : \"2019-01-01\"\n" +
+                "    },\n" +
+                "    \"additionalneeds\" : \"Breakfast\"\n" +
                 "}";
 
         r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");
-        r.basePath("/booking/" + bookingid);
+        r.basePath("/booking/"+bookingid);
         r.contentType(ContentType.JSON);
         // r.header("Cookie","token="+token);
-        r.cookie("token", token);
+        r.cookie("token",token);
         r.body(payload).log().all();
 
-
-        response = r.when().log().all().patch();
+        response = r.when().log().all().put();
 
         vr = response.then().log().all();
         vr.statusCode(200);

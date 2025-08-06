@@ -1,4 +1,4 @@
-package Ex_04_RestAssured_HTTP_Methods.POST;
+package com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

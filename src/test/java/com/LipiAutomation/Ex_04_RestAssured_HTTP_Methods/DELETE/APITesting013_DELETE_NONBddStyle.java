@@ -1,4 +1,4 @@
-package Ex_04_RestAssured_HTTP_Methods.DELETE;
+package com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.DELETE;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

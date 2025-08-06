@@ -1,4 +1,4 @@
-package Ex_04_RestAssured_HTTP_Methods.GET;
+package com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.GET;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
