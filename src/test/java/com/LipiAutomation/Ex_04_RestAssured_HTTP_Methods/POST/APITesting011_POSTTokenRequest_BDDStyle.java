@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
-public class APITesting011_POST_BDDStyle {
+public class APITesting011_POSTTokenRequest_BDDStyle {
     @Test
     public void test_POST_Auth() {
 

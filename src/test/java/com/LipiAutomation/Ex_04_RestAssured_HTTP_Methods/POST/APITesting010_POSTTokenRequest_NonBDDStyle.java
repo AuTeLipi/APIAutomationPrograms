@@ -7,7 +7,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class APITesting010_POST_NonBDDStyle {
+public class APITesting010_POSTTokenRequest_NonBDDStyle {
 
     RequestSpecification r;
     Response response;
