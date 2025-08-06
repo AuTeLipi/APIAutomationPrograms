@@ -1,23 +1,25 @@
-package com.LipiAutomation.Homework_5th_Aug;
+package Assignments.Homework_5th_Aug;
 
 import io.restassured.RestAssured;
+import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class RestfulBooker_Get_Post_Requests_UsingMainMethod_BuilderPattern {
+public class RestfulBooker_Get_Post_Requests_UsingTestNG {
 
-    public RestfulBooker_Get_Post_Requests_UsingMainMethod_BuilderPattern Get() {
+    @Test
+    public void Get() {
         //Get Ping Request
         RestAssured.given()
                 .baseUri("https://restful-booker.herokuapp.com")
                 .basePath("/ping")
                 .when().log().all().get()
                 .then().log().all().statusCode(201);
-        return this;
     }
 
-    public RestfulBooker_Get_Post_Requests_UsingMainMethod_BuilderPattern Post() {
+    @Test
+    public void Post() {
         Map<String, Object> bookingdates = new HashMap<>();
         bookingdates.put("checkin", "2018-01-01");
         bookingdates.put("checkout", "2019-01-01");
@@ -38,12 +40,5 @@ public class RestfulBooker_Get_Post_Requests_UsingMainMethod_BuilderPattern {
                 .body(booking)
                 .when().post()
                 .then().log().all().statusCode(200);
-        return this;
     }
-
-    public static void main(String[] args) {
-        RestfulBooker_Get_Post_Requests_UsingMainMethod_BuilderPattern gp = new RestfulBooker_Get_Post_Requests_UsingMainMethod_BuilderPattern();
-        gp.Get().Post();
-    }
-
 }
