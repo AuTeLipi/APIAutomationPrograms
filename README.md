@@ -82,7 +82,7 @@ mvn test
 ### 📊 Reporting with Allure
 After test execution, generate and open Allure reports:
 ```bash
-allure serve
+allure serve allure-results
 ```
 Make sure Allure CLI is installed and configured in your system.
 
