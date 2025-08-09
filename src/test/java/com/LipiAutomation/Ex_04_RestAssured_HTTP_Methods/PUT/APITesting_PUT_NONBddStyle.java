@@ -21,8 +21,8 @@ public class APITesting_PUT_NONBddStyle {
     @Test
     public void test_put_non_bdd() {
 
-        String bookingid = "2232";
-        String token = "39a0dd7a6fa3ead";
+        String bookingid = "1108";
+        String token = "32bd3149ec5c9dd";
 
         String payload = "{\n" +
                 "    \"firstname\" : \"lipi\",\n" +

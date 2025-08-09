@@ -15,8 +15,8 @@ public class APITesting013_DELETE_NONBddStyle {
     @Test
     public void test_delete_non_bdd() {
 
-        String bookingid = "2232";
-        String token = "39a0dd7a6fa3ead";
+        String bookingid = "3913";
+        String token = "77e97a0c81f7afa";
 
         r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");

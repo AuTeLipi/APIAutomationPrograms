@@ -13,9 +13,9 @@ public class APITesting_GETBookingRequest_NonBDD {
     ValidatableResponse vr;
 
     @Test
-    public void test_GET_PingRequest() {
+    public void test_GET_BookingRequest() {
 
-        String bookingid = "1089";
+        String bookingid = "4124";
 
         r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com/");

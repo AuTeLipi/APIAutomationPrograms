@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Home/IdeaProjects/APIAutomationPrograms/src/test/java/com/LipiAutomation/Ex_04_RestAssured_HTTP_Methods">
+
+        <parameter name="browser" value="firefox"></parameter>
+
+        <!--        <parameter name="browser" value="safari"></parameter>-->
+
+        <classes>
+            <class name="com.LipiAutomation.Ex_05_TestNGExamples.Parallel.APITesting019_TestNG_Parameter">
+            </class>
+        </classes>
+    </test>
+</suite>
