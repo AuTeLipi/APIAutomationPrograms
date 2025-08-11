@@ -185,6 +185,7 @@ public class APITesting_DummyRestAPI_E2E {
         vr = response.then().log().all();
         vr.statusCode(200);
 
+        //AsserJ Assertion
         String status = response.path("status");
         String message = response.path("message");
 
