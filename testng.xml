@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <!-- Add listeners here -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Home/IdeaProjects/APIAutomationPrograms/src/test/java/com/LipiAutomation/Ex_04_RestAssured_HTTP_Methods">
+        <classes>
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.DELETE.APITesting013_DELETE_NONBddStyle">
+                <methods>
+                    <include name="test_delete_non_bdd"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.GET.APITesting008_GET_BDDStyle">
+                <methods>
+                    <include name="test_GET_Request"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.GET.APITesting009_GET_NonBDDStyle">
+                <methods>
+                    <include name="test_Get_NonBDD"/>
+                    <include name="test_GET_NonBDD_Negative"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.GET.APITesting009_HEAD_NonBDDStyle">
+                <methods>
+                    <include name="test_HEAD_NonBDD"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.GET.APITesting_GETBookingRequest_NonBDD">
+                <methods>
+                    <include name="test_GET_PingRequest"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.GET.APITesting_GET_NonBDD_PingRequest">
+                <methods>
+                    <include name="test_GET_PingRequest"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.PATCH.APITesting012_PATCH_NONBddStyle">
+                <methods>
+                    <include name="test_patch_non_bdd"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.POST.APITesting010_POSTTokenRequest_NonBDDStyle">
+                <methods>
+                    <include name="test_Post_NonBDD"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.POST.APITesting011_POSTTokenRequest_BDDStyle">
+                <methods>
+                    <include name="test_POST_Auth"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.POST.APITesting_POSTBookingRequest_NonBDDStyle">
+                <methods>
+                    <include name="test_POST_BookingRequest"/>
+                </methods>
+            </class>
+
+            <class name="com.LipiAutomation.Ex_04_RestAssured_HTTP_Methods.PUT.APITesting_PUT_NONBddStyle">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
