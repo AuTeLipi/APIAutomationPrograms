@@ -34,19 +34,17 @@ This project is your complete guide and hands-on workspace for mastering **REST 
 
 ## 📁 Project Structure
 ```
-APIAutomationPrograms/
-├── src/
-│ └── main/java/com/LipiAutomation/ # (If any core logic)
+ATB12x-API-Automation/
 │
-├── test/java/com/LipiAutomation/
-│ ├── Ex_01_RA_Basics # Basic Rest Assured examples
-│ ├── Ex_02_RA_Concepts # Advanced Rest Assured examples
-│ ├── Ex_03_TestNG_AllureReport # Allure integrated tests
-│ └── Homework_5th_Aug # Assignments / exercises
+├── src/test/java/
+│   ├── base/                 # Base test setup
+│   ├── crud/                 # CRUD test cases
+│   ├── utils/                # Utility functions (Excel, Config, etc.)
+│   └── tests/                # TestNG test classes
 │
-├── testng_temp.xml # Temporary TestNG suite
-├── pom.xml # Maven dependencies
-└── .gitignore # Git ignore rules
+├── testng.xml                # TestNG suite file
+├── pom.xml                   # Maven dependencies
+└── README.md                 # Project documentation
 ```
 
 ---
@@ -84,7 +82,7 @@ mvn test
 ### 📊 Reporting with Allure
 After test execution, generate and open Allure reports:
 ```bash
-allure serve
+allure serve allure-results
 ```
 Make sure Allure CLI is installed and configured in your system.
 
