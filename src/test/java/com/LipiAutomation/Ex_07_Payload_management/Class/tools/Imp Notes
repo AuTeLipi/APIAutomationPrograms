@@ -1,0 +1,9 @@
+We can use JsonSchema_To_POJO Plugins / JsonSchema_TO_POJO Website to convert and get the POJO Convertion
+
+Website: https://www.jsonschema2pojo.org/
+select this below options:
+Source type: JSON
+Annotation style: NONE
+Validation annotations: None
+- Use double numbers
+- Include getters and setters
